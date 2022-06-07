@@ -1,0 +1,38 @@
+.btn{
+    background-color: orange;
+    box-shadow: 3px 3px 2px #222;
+    border-radius: 50%;
+    color:white;
+    width:50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin:1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn div {
+    background-color: orange;
+}
+
+.btnTxt{
+    line-height: 40px;
+}
+
+.equal {
+    border-radius: 2rem;
+    grid-column: 4 /4 ;
+    grid-row: 4 / 5;
+    grid-row: span 2;
+    background-color: blueviolet;
+    height: 130px;  
+}
+
+.equal div {
+    background-color: blueviolet;
+}

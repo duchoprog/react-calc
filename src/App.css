@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width:100vw;
+  height:100vh
 }
 
 .App-logo {
@@ -28,6 +30,12 @@
   color: #61dafb;
 }
 
+.Container{
+  width:400px;
+  height:800px;
+  margin:5px;
+  min-height: 400px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
