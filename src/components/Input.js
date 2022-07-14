@@ -1,8 +1,11 @@
 import React from 'react'
 import './input.css'
 
-export const Input = ({inValue}) => {
+export const Input = ({value}) => {
+  let strValue=value.toString()
   return (
-    <div className='input'>{inValue}</div>
+    <div className='input'>{
+      !strValue.includes(".")?value:value
+    }</div>
   )
 }

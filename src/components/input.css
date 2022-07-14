@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: flex-end;
     color: white;
+    font-size:32px;
     font-weight: bold;
     box-sizing: border-box;
   }
